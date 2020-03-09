@@ -1,6 +1,14 @@
 # jetson-ffmpeg
 L4T Multimedia API for ffmpeg
 
+**Dependencies**
+
+    sudo apt-get install libv4l-dev
+    
+ **Option dependencies for ffplay**   
+    
+    sudo apt-get install libsdl2-dev 
+
 **1.build and install library**
 
     git clone https://github.com/jocover/jetson-ffmpeg.git
